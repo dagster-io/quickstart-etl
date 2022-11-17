@@ -5,20 +5,19 @@ This example is a starter kit for building a daily ETL pipeline. At a high level
 *New to Dagster? Learn what Dagster is [in Concepts](https://docs.dagster.io/concepts) or [in the hands-on Tutorials](https://docs.dagster.io/tutorial).*
 
 This guide covers:
-- [Dagster starter kit](#dagster-starter-kit)
-  - [Introduction](#introduction)
-  - [Getting started](#getting-started)
-    - [Option 1: Deploying it on Dagster Cloud](#option-1-deploying-it-on-dagster-cloud)
-    - [Option 2: Running it locally](#option-2-running-it-locally)
-  - [Step 1: Materializing assets](#step-1-materializing-assets)
-  - [Step 2: Viewing and monitoring assets](#step-2-viewing-and-monitoring-assets)
-  - [Step 3: Scheduling a daily job](#step-3-scheduling-a-daily-job)
-    - [(Optional) Running daemon locally](#optional-running-daemon-locally)
-  - [Learning more](#learning-more)
-    - [Changing the code locally](#changing-the-code-locally)
-    - [Using environment variables and secrets](#using-environment-variables-and-secrets)
-    - [Adding new Python dependencies](#adding-new-python-dependencies)
-    - [Testing](#testing)
+- [Introduction](#introduction)
+- [Getting started](#getting-started)
+  - [Option 1: Deploying it on Dagster Cloud](#option-1-deploying-it-on-dagster-cloud)
+  - [Option 2: Running it locally](#option-2-running-it-locally)
+- [Step 1: Materializing assets](#step-1-materializing-assets)
+- [Step 2: Viewing and monitoring assets](#step-2-viewing-and-monitoring-assets)
+- [Step 3: Scheduling a daily job](#step-3-scheduling-a-daily-job)
+  - [(Optional) Running daemon locally](#optional-running-daemon-locally)
+- [Learning more](#learning-more)
+  - [Changing the code locally](#changing-the-code-locally)
+  - [Using environment variables and secrets](#using-environment-variables-and-secrets)
+  - [Adding new Python dependencies](#adding-new-python-dependencies)
+  - [Testing](#testing)
 
 
 ## Introduction
